@@ -89,7 +89,7 @@ const getWhatsAppLink = (message) =>
       <header className="header">
         <nav className="nav container" aria-label="Main navigation">
           <a className="brand" href="#home" onClick={closeMenu}>
-            <span className="brand-mark">&lt;/&gt;</span>
+           <span className="brand-mark"><img src="/public/megatechlogo.png" alt="MEGATECH Logo"  className="brandlogo"/></span>
             <span>
               MEGA<span className="brand-light">TECH</span>
               <small>TECHNOLOGY & DIGITAL SOLUTIONS</small>
@@ -343,7 +343,7 @@ const getWhatsAppLink = (message) =>
         <section className="section about-section" id="about">
           <div className="container about-grid">
             <div className="about-visual">
-              <div className="about-icon">&lt;/&gt;</div>
+              <div className="about-icon"><img src="/public/megatechlogo.png" alt="MEGATECH Logo" className="aboutlogo" /></div>
               <span className="about-orbit orbit-one" />
               <span className="about-orbit orbit-two" />
               <div className="about-caption">
@@ -404,7 +404,7 @@ const getWhatsAppLink = (message) =>
       <footer className="footer">
         <div className="container footer-inner">
           <a className="brand footer-brand" href="#home">
-            <span className="brand-mark">&lt;/&gt;</span>
+            <span className="brand-mark"><img src="/public/megatechlogo.png" alt="MEGATECH Logo" className="brandlogo" /></span>
             <span>
               MEGA<span className="brand-light">TECH</span>
               <small>TECHNOLOGY & DIGITAL SOLUTIONS</small>

@@ -90,6 +90,11 @@ button {
   letter-spacing: -1px;
 }
 
+.brandlogo{
+  height: 33px;
+  width: 33px;
+  border-radius: 5px;
+}
 .brand-light {
   color: var(--blue);
 }
@@ -802,7 +807,10 @@ h3 {
   font-size: 31px;
   transform: rotate(-5deg);
 }
-
+.aboutlogo{
+  width: 105x;
+  height: 105px;
+}
 .about-orbit {
   position: absolute;
   width: 230px;
